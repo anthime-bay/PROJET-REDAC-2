@@ -25,22 +25,22 @@ You are currently on the Readme of the twitter homepage clone that I made in HTM
 
 <p>You can contribute to this project if you have knowledge in HTML5 and CSS3, all improvements are good to take, maybe we will manage one day to recreate twitter entirely who knows ?</p>
 
-<h1 align="center">Hi 👋, I'm Younes</h1>
+<h1 align="center">Hi 👋, I'm Anthime</h1>
 <h3 align="center">A passionate frontend developer from France</h3>
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=younesessl&label=Profile%20views&color=0e75b6&style=flat" alt="younesessl" /> </p>
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=anthime-bay&label=Profile%20views&color=0e75b6&style=flat" alt="anthime-bay" /> </p>
 
-- 🔭 I’m currently working on [Clone Twitter's Home Page](https://github.com/YounesEssl/Project2)
+- 🔭 I’m currently working on [Clone Twitter's Home Page](https://github.com/anthime-bay/Project2)
 
 - 🌱 I’m currently learning **HTML5 / CSS3 / JavaScript**
 
-- 👨‍💻 All of my projects are available at [https://github.com/YounesEssl](https://github.com/YounesEssl)
+- 👨‍💻 All of my projects are available at [https://github.com/anthime-bay](https://github.com/anthime-bay)
 
-- 📫 How to reach me **younes.esslimani@efrei.net**
+- 📫 How to reach me **anthime.bayani-miandoab@efrei.net**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
-<a href="https://linkedin.com/in/younes.esslimani" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="younes.esslimani" height="30" width="40" /></a>
+<a href="https://linkedin.com/in/anthime.bayani" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="anthime.bayani" height="30" width="40" /></a>
 </p>
 
 <h3 align="left">Languages and Tools:</h3>
