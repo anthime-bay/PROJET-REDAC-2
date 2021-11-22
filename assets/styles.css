@@ -1,0 +1,689 @@
+* {
+    text-decoration: none;
+    margin:0;
+    padding:0;
+    color:white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* ALL */
+body {
+    display:flex;
+    background-color: #15202B;
+}
+
+.hovered:hover {
+    width: fit-content;
+    background-color:rgba(255,255,255,0.1);
+    border:0px solid;
+    border-radius:9999px;
+    cursor: pointer;
+}
+.greytext {
+    color:rgb(159, 159, 159);
+}
+
+/**********************************/
+/********** NAVIGATION ***********/
+/**********************************/
+
+#icontweeter {
+    margin-top:20px;
+    margin-bottom: 20px;
+    padding:10px;
+    margin-left:-150px;
+}
+#navcontainer {
+    width: 25%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#navcontainer > ul {
+    list-style-type: none;
+}
+
+#navcontainer ul > li {
+    padding:10px;
+    margin-bottom: 2px;
+    font-size:20px;
+    display:flex;
+    text-align: center;
+}
+.bolder {
+    font-weight: bolder;
+}
+ul > li > a {
+    margin-right:20px;
+}
+
+#tweeterbut1 {
+    font-size:18px;
+    margin-top: 20px;
+    margin-left:20px;
+    font-weight: bolder;
+    width:220px;
+    height:60px;
+    background-color: rgb(26,154,238);
+    text-align: center;
+    border:none;
+    border-radius: 9999px;
+}
+#tweeterbut1:hover {
+    background-color: rgba(26,154,238,0.8);
+    cursor:pointer;
+}
+
+#profile {
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    height:65px;
+    width: 220px;
+    margin-top:100px;
+    margin-left:10px;
+}
+#profile > img {
+    padding-left:10px;
+    width:48px;
+    height:48px;
+}
+#profile:hover {
+    cursor:pointer;
+}
+#profiletext {
+    padding-right:10px;
+}
+#profile svg {
+    padding-right:20px;
+}
+
+
+/**********************************/
+/******** MAIN HOME BAR **********/
+/********************************/
+main {
+    width:45%;
+}
+#homebar {
+    position:fixed;
+    width:45%;
+    height:50px;
+    background-color: #15202B;
+    border:0.2px solid;
+    border-color:rgba(255, 255, 255, 0.3);
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#homebar p{
+    font-weight: bolder;
+    margin-left:15px;
+    font-size: 20px;
+
+}
+
+#homebar svg {
+    padding:8px;
+    margin-right:15px;
+}
+
+#homebar svg:hover {
+    cursor:pointer;
+}
+#whatsupcontainer {
+    width:100%;
+    border:0.2px solid;
+    border-color:rgba(255, 255, 255, 0.3);
+    border-top:none;
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-bottom: 15px;
+}
+#whatsupsection {
+    width: 100%;
+    display:flex;
+    margin-top:50px;
+    height: 90px;
+}
+#whatsupsection > img {
+    width: 48px;
+    height: 48px;
+    margin-left:20px;
+    margin-top:10px;
+
+}
+#textareainput {
+    background-color:rgba(255, 255, 255, 0);
+    color:white;
+    font-size:20px;
+    line-height: 1.3;
+    width: 82%;
+    height:50%;
+    outline:none;
+    border:none;
+    resize:none;
+    margin-left:20px; 
+    margin-top:20px;
+}
+#whatsupsvg {
+    display:flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    height:100%;
+    width:200px;
+    margin-left:80px;
+}
+#whatsupsvg svg {
+    padding:10px;
+    color:rgb(29,155,240);
+}
+#whatsupsvg > svg:hover {
+    background-color:rgba(255,255,255,0.1);
+    border:0px solid;
+    border-radius:9999px;
+    background-size: 30px;
+
+}
+#whatsupbutton {
+    background-color:rgb(29,155,240);
+    border: none;
+    border-radius: 9999px;
+    color: white;
+    width:100px;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 16px;
+    cursor:pointer;
+}
+#whatsupbutton:hover {
+    background-color: rgba(29,155,240, 0.8);
+}
+#svgbutcontainer {
+    width:100%;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#svgbutcontainer > button {
+    margin-right:20px;
+}
+/* FIRST ARTICLE */
+
+article {
+    border:0.2px solid;
+    border-color:rgba(255, 255, 255, 0.3);
+    border-top:none;
+    width: 100%;
+    cursor:pointer;
+}
+article:hover {
+    background-color: rgba(255, 255, 255, 0.029);
+}
+#profileuser1 {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    height:60px;
+    width: 100%;
+    margin-left:20px;
+
+}
+#profiletextuser1 > p {
+    display:flex;
+    margin-right:5px;
+}
+#profiletextuser1 {
+    margin-top:-20px;
+    margin-left:10px;
+    display:flex;
+}
+#firstarticlecontent {
+    margin-top:-25px;
+    margin-left:80px;
+}
+strong {
+    color:rgb(26,154,238)
+}
+strong:hover {
+    cursor:pointer
+}
+
+#firstarticlecontent > img {
+    border:none;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    width:97%;
+}
+#interactbutton {
+    display:flex;
+    width:90%;
+    margin-left:13%;
+    margin-bottom: 10px;
+}
+#interactbutton li{
+    display:flex;
+    align-items: center;
+    list-style: none;
+    margin-right:3%;
+    font-size: 14px;
+}
+#interactbutton svg {
+    padding:3px;
+    margin-right:5px;
+}
+.retweet:hover .retweet2{
+    color:yellowgreen;
+}
+.comment:hover .comment2 {
+    color:lightseagreen;
+}
+.share:hover {
+    color:rgb(26,154,238);
+}
+
+.redlike {
+    color:rgb(229,57,127);
+}
+/* ARTICLE 2 */
+
+#profileuser2 {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    height:60px;
+    width: 100%;
+    margin-left:20px;
+
+}
+#profiletextuser2 > p {
+    display:flex;
+    margin-right:5px;
+}
+#profiletextuser2 {
+    margin-top:-20px;
+    margin-left:10px;
+    display:flex;
+}
+#secondarticlecontent {
+    margin-top:-25px;
+    margin-left:80px;
+}
+
+#secondarticlecontent > img {
+    border:none;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    width:97%;
+}
+
+
+
+
+
+/**********************************/
+/************* ASIDE **************/
+/**********************************/
+
+#asidecontainer {
+    width:30%;
+}
+aside {
+    display:flex;
+    flex-direction: column;
+    align-items: left;
+}
+aside input {
+    margin-top:5px;
+    margin-left:30px;
+    text-align: left;
+    background-color: rgb(40,51,64);
+    width: 65%;
+    height: 45px;
+    padding-left: 45px;
+    color:white;
+    font-size:16px;
+    border:none;
+    border-radius: 9999px;
+    margin-bottom:10px;
+}
+input:focus {
+    outline-style: none;
+    border:1px rgb(74,153,233) solid;
+    background-color:rgba(0,0,0,0);
+}
+input::placeholder {
+    font-size: 15px;
+    color:rgb(139,153,165);
+}
+
+#searchbar > svg {
+    position:absolute;
+    margin-left:45px;
+    margin-top:19px;
+    color:rgb(139,153,165)
+}
+
+#tendancescontainer {
+    display:flex;
+    flex-direction: column;
+    align-items: left;
+    margin-left:30px;
+    cursor:pointer;
+}
+
+#tendances {
+    cursor: default;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:rgb(28, 39, 51);
+    padding-left:22px;
+    padding-right:22px;
+    font-size: 20px;
+    font-weight: bolder;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    width: 70%;
+    height:48px;
+}
+#tendances > svg {
+    padding:5px;
+}
+
+#contentone {
+    width: 70%;
+    height:55px;
+    padding-left:22px;
+    padding-right:22px;
+    background-color: rgb(28,39,51);
+}
+#contentone:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+#contentone > p {
+    padding-top:5px;
+}
+
+.tendances {
+    font-weight: bolder;
+    
+}
+.rt {
+    font-size:12px;
+    color:rgba(255,255,255,0.3)
+}
+#contenttwo {
+    width: 70%;
+    height:55px;
+    padding-left:22px;
+    padding-right:22px;
+    background-color: rgb(28,39,51);
+}
+#contenttwo:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+#contenttwo > p {
+    padding-top:5px;
+}
+
+#contentthree {
+    width: 70%;
+    height:55px;
+    padding-left:22px;
+    padding-right:22px;
+    background-color: rgb(28,39,51);
+}
+#contentthree:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+#contentthree > p {
+    padding-top:5px;
+}
+
+#contentfour {
+    width: 70%;
+    height:55px;
+    padding-left:22px;
+    padding-right:22px;
+    background-color: rgb(28,39,51);
+}
+#contentfour:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+#contentfour > p {
+    padding-top:5px;
+}
+
+#contentfive {
+    width: 70%;
+    height:55px;
+    padding-left:22px;
+    padding-right:22px;
+    background-color: rgb(28,39,51);
+}
+#contentfive:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+#contentfive > p {
+    padding-top:5px;
+}
+#contentsix {
+    width: 70%;
+    height:55px;
+    padding-left:22px;
+    padding-right:22px;
+    background-color: rgb(28,39,51);
+
+}
+#contentsix:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+#contentsix > p {
+    padding-top:5px;
+}
+#showmore {
+    width: 70%;
+    height:55px;
+    padding-left:22px;
+    padding-right:22px;
+    background-color: rgb(28,39,51);
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    display:flex;
+    align-items: center;
+}
+#showmore:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+#showmore > a {
+    font-size:15px;
+    color:rgb(29,155,240)
+}
+#suggest {
+    margin-left:30px;
+    margin-top:20px;
+}
+#whotofollow{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:rgb(28,39,51);
+    padding-left:22px;
+    padding-right:22Px;
+    font-size: 20px;
+    font-weight: bolder;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    width: 70%;
+    height:48px;
+}
+
+#profileboa {
+    background-color:rgb(28,39,51);
+    display:flex;
+    align-items: center;
+    height:65px;
+    width: 70%;
+    padding-left:22px;
+    padding-right:22Px;
+}
+#profileboa:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+#profileboa > img {
+    width:48px;
+    height:48px;
+}
+#profileboa:hover {
+    cursor:pointer;
+}
+#profileboatext {
+    margin-left:10px;
+    margin-right:10px;
+}
+
+#followbut {
+    color:rgb(29,155,240);
+    width:60px;
+    height:30px;
+    border-radius: 999px;
+    border:1px solid rgb(29,155,240);
+    background-color: rgba(255, 255, 255, 0.01);
+    margin-left:50px;
+}
+#followbut:hover {
+    background-color: rgba(29,155,240,0.2);
+    cursor:pointer;
+}
+.pseudoboa {
+    margin-left:60px;
+    margin-top:-40px;
+}
+.boa {
+    color:rgb(116, 120, 124);
+    margin-left:60px;
+}
+#imgboa {
+    margin-top:4px;
+    width:45px;
+    height:45px;
+}
+
+#showmoretwo {
+    width: 70%;
+    height:55px;
+    padding-left:22px;
+    padding-right:22px;
+    background-color: rgb(28,39,51);
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    display:flex;
+    align-items: center;
+}
+#showmoretwo:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+#showmoretwo > a {
+    font-size:15px;
+    color:rgb(29,155,240)
+}
+
+#tweeterbut2 {
+    background-color: rgb(26,154,238);
+    width:50px;
+    height:50px;
+    border-radius: 999px;
+    border:none;
+}
+#tweeterbut2:hover {
+    background-color: rgba(26,154,238,0.8);
+    cursor:pointer;
+}
+#followbut2 {
+    font-size: 25;
+    margin-left:20px;
+    font-weight: bolder;
+    color:white;
+    width:30px;
+    height:30px;
+    border-radius: 999px;
+    border:1px solid rgb(29,155,240);
+    background-color: rgb(29,155,240);
+}
+#followbut2:hover {
+    background-color: rgba(29,155,240, 0.8);
+    cursor: pointer;
+}
+@media only screen and (max-width: 1000px) {
+
+    .resp{
+        display:none;
+    }
+    #navcontainer {
+        align-items: flex-end;
+        padding-right:20px;
+        width:10%;
+    }
+    #asidecontainer {
+        width: 40%;
+    }
+    main, #homebar {
+        width:47%;
+    }
+    ul > li > a {
+        margin-right:0px;
+    }
+    #tweeterbut1 {
+        display: none;
+    }
+    #tweeterbut2 {
+        display:block;
+    }
+    #profiletext {
+        display:none;
+    }
+    #profile > a {
+        display:none;
+    }
+    #profile{
+        padding:5px;
+        width:50px;
+        height:50px;
+    }
+    
+}
+
+@media only screen and (min-width: 1000px) {
+    #tweeterbut2 {
+        display:none;
+    }
+}
+
+@media only screen and (max-width: 850px) {
+    #asidecontainer {
+        display:none;
+    }
+    main, #homebar{
+        width:85%;
+    }
+}
+
+@media only screen and (max-width: 1205px) {
+    #followbut {
+        display:none;
+    }
+    #followbut2 {
+        display:block;
+    }
+}
+@media only screen and (min-width: 1205px) {
+
+    #followbut2 {
+        display:none;
+    }
+}
